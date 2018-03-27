@@ -1,0 +1,13 @@
+.wrap{
+	:global{
+		.tableTitle{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		.commSum{
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+}

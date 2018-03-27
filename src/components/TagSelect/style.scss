@@ -1,0 +1,15 @@
+.wrap{
+	color:#3dbd7d;
+	:global{
+		.item{
+			padding: 20px 0;
+			strong{
+				font-size: 14px;
+				padding-right: 8px;
+			}
+		}
+		.item:first-child{
+			padding: 0 0 10px 0;
+		}
+	}
+}

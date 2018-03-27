@@ -1,0 +1,25 @@
+.icon-picker {
+	:global {
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+
+			li {
+				display: inline-block;
+				margin: 3px;
+				padding: 5px;
+				line-height: 1;
+
+				&:hover {
+					background-color: #1890ff;
+				}
+
+				&.selected {
+					background-color: #1890ff;
+					color: #fff;
+				}
+			}
+		}
+	}
+}

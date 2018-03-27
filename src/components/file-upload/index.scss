@@ -1,0 +1,30 @@
+.poster-uploader {
+	width: 300px;
+	height: 200px;
+	display: block;
+	border: 1px dashed #d9d9d9;
+	border-radius: 6px;
+	cursor: pointer;
+
+	:global {
+		.poster {
+			max-width: 300px;
+			max-height: 200px;
+		}
+
+		.poster-uploader-trigger {
+			font-size: 40px;
+			color: #999;
+			width: 300px;
+			height: 200px;
+			display: table-cell;
+  			vertical-align: middle;
+		}
+
+		.ant-upload {
+			display: inline-block;
+			width: 100%;
+			height: 100%;
+		}
+	}
+}

@@ -1,0 +1,13 @@
+.agent-list {
+	:global {
+		.content-header {
+			display: flex;
+			justify-content: space-between;
+			margin-top: 10px;
+		}
+
+		.content-body {
+			margin-top: 20px;
+		}
+	}
+}

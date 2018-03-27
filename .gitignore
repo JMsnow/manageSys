@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+dist/
+.vscode/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.idea/
+yarn.lock
+bash.exe.stackdump

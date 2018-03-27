@@ -1,0 +1,12 @@
+.unaudite-agents {
+	:global {
+		.content-header {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.content-body {
+			margin-top: 20px;
+		}
+	}
+}

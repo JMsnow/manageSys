@@ -1,0 +1,15 @@
+.wrap{
+	background: #f0f2f5;
+	width: 100%;
+	height: 100vh;
+	background-image:url(@/assets/images/bg-hc.svg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align:center;
+  
+    img{
+        width:120px;
+        margin-bottom:30px;
+    }
+}

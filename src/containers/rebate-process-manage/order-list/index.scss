@@ -1,0 +1,37 @@
+.content-inner {
+	:global {
+		.content-header {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.content-body {
+			margin-top: 20px;
+
+			.filter-item {
+				display: flex;
+
+				.filter-label {
+					flex: 0 0 auto;
+					text-align: right;
+					margin-right: 24px;
+
+					span {
+						display: inline-block;
+						height: 22px;
+						line-height: 22px;
+					}
+				}
+
+				.filter-range {
+					flex: 1 1 0;
+					width: 100%;
+				}
+			}
+
+			.order-list {
+				margin-top: 20px;
+			}
+		}
+	}
+}

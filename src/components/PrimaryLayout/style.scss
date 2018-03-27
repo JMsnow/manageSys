@@ -1,0 +1,37 @@
+.layout{
+	:global{
+		.logo{
+			color: #fff;
+			font-size: 18px;
+			text-align: center;
+			padding: 20px 0;
+			overflow: hidden;
+			white-space: nowrap;
+			background-color:#231815;
+			
+			img{
+			    width:96px;
+			}
+		}
+		.childrenLayout{
+			height: 100vh;
+			overflow: hidden;
+			.breadcrumb{
+				padding: 10px 10px;
+				background: #fff;
+				position: absolute !important;
+                top: 10px;
+                margin-left: 70px;
+			}
+			.route-content{
+				height: calc(100vh - 125px);
+				overflow:auto;
+				>div{
+					background: #fff;
+					padding: 20px;
+					min-height: 100%;
+				}
+			}
+		}
+	}
+}

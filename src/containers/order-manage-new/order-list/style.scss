@@ -1,0 +1,126 @@
+.order {
+  :global {
+	.ant-table-thead > tr > th {
+	  background-color: #EDF4F8;
+	}
+	.ant-table-tbody > tr > td {
+	  padding: 0;
+	  vertical-align: top;
+	  word-break: normal;
+	}
+  }
+  .text_hidden {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+  }
+  .no_border {
+	border: 0 !important
+  }
+  .text_center {
+	text-align: center !important
+  }
+  .table {
+	.expand_head {
+	  height: 40px;
+	  line-height: 40px;
+	  background: #dfe6ec;
+	}
+	.info {
+	  & > span {
+		&:first-child {
+		  padding: 0 10px;
+		}
+		&:nth-child(2) {
+		  padding: 0 20px 0 0;
+		}
+		&:nth-child(3) {
+		  padding-right: 20px;
+		}
+	  }
+	}
+	.type_tip {
+	  width: 25px;
+	  height: 25px;
+	  line-height: 22px;
+	  border-radius: 50%;
+	  background-color: #3e9fe6;
+	  display: inline-block;
+	  vertical-align: middle;
+	  color: #fff;
+	  text-align: center;
+	  padding: 0 !important;
+	  margin: 8px 4px;
+	}
+	.expand_body {
+	  text-align: left;
+	  padding: 20px 20px 0
+	}
+	.cell_in {
+	  border-bottom: 1px solid #edf4f8;
+	  padding: 5px 0;
+	}
+	.w30 {
+	  display: inline-block;
+	  width: 40%;
+	  text-align: left;
+	}
+	.person_info {
+	  text-align: left;
+	  padding: 22px 20px 0;
+	  height: 102px;
+	}
+	.buy_text {
+	  color: #ff4500;
+	}
+	.sale_text {
+	  color: #099;
+	}
+	.company_text {
+	  color: #8080ff;
+	}
+	.notice_title {
+	  width: 80px;
+	  height: 20px;
+	  border-radius: 25px;
+	  padding: 0 10px;
+	  color: #fff;
+	  &.pink {
+		background: #f9f
+	  }
+
+	  &.yellow {
+		background: #fc0
+	  }
+
+	  &.orange {
+		background: #f90
+	  }
+
+	  &.green {
+		background: #093
+	  }
+
+	  &.purple {
+		background: #f6c
+	  }
+
+	  &.blue {
+		background: #09f
+	  }
+
+	  &.gray {
+		background: #999
+	  }
+	}
+	.detail_btn {
+	  width: 112px;
+	  margin-top: 10px
+	}
+	.order_alter {
+	  width: 112px;
+	  display: block;
+	  margin: 15px auto
+	}
+  }
+}

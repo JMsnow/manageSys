@@ -1,0 +1,44 @@
+.product-manage {
+	:global {
+		.content-header {
+			display: flex;
+			justify-content: space-between;
+			margin-top: 10px;
+		}
+
+		.content-body {
+			margin-top: 20px;
+		}
+
+		.filter-zone {
+			border: 1px solid #e9e9e9;
+			margin-bottom: 20px;
+
+			.filter-item {
+				display: table;
+				width: 100%;
+
+				.filter-label {
+					display: table-cell;
+					min-width: 90px;
+					text-align: center;
+					padding: 6px 0;
+					vertical-align: top;
+					background: #eee;
+				}
+
+				.filter-range {
+					display: table-cell;
+					width: 100%;
+					padding: 6px;
+					vertical-align: top;
+					border-bottom:  1px solid #e9e9e9;
+				}
+
+				&:last-child .filter-range {
+					border-bottom: none;
+				}
+			}
+		}
+	}
+}

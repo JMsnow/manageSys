@@ -1,0 +1,11 @@
+.agent-detail {
+	:global {
+		p {
+			margin-bottom: 24px;
+
+			&.agent-item {
+				margin-bottom: 5px;
+			}
+		}
+	}
+}

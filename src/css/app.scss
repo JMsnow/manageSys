@@ -1,0 +1,53 @@
+/*
+ * APP Style entry
+ */
+
+@import 'normalize';
+@import 'reset';
+@import 'theme';
+
+// Global style
+#root {
+    height: auto;
+}
+
+.g__block_flex_space-between {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.helper__color_red {
+	color: $helper_color_error
+}
+
+.helper__color_green {
+	color: $helper_color_success
+}
+
+tr.ant-table-row.highlight {
+	background: rgba(24, 144, 255, 0.6);
+	color: #fff;
+
+	&:hover >td {
+		background: rgba(24, 144, 255, 1);
+	}
+}
+
+.g_nav_tree_panel {
+	min-height: calc(100vh - 185px);
+	overflow-x: auto;
+}
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.lf{
+  float: left;
+}
+.rt{
+  float: right;
+}

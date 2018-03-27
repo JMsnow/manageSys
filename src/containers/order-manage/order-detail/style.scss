@@ -1,0 +1,28 @@
+.detail{
+	:global{
+		.divider{
+			display: block;
+			height: 1px;
+			width: 100%;
+			background: #e8e8e8;
+			margin: 30px 0;
+		}
+		.detailTitle{
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 20px;
+			font-size: 16px;
+		}
+		.detailItem{
+			display: flex;
+			align-items: flex-start;
+			>span:first-child{
+				white-space: nowrap;
+			}
+		}
+		.distributorTitle{
+			font-size: 16px;
+			margin: 10px 0;
+		}
+	}
+}

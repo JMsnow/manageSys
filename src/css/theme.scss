@@ -1,0 +1,58 @@
+/*
+ * Theme style
+ */
+
+// Subject color
+$main_color_normal: #0099e8;
+
+$main_color_hover: #2eabec;
+
+$main_color_active: #008cd3;
+
+// Helper color
+$helper_color_info: #008cd3;
+
+$helper_color_error: #ef6f6f;
+
+$helper_color_warn: #eebf4e;
+
+$helper_color_success: #3dbd7d;
+
+// Other color
+$other_color_border: #ddd;
+
+$other_color_cutLine: #eee;
+
+$other_color_bg: #ecf0f5;
+
+$other_color_crossBg: #f7f7f7;
+
+$other_color_titleBg: #f4f4f4;
+
+// Font color
+$font_color_title: #444;
+
+$font_color_text: #777;
+
+$font_color_helper: #999;
+
+$font_color_disabled: #ddd;
+
+$font_color_link: #008cd3;
+
+// Font size
+$font_size_titleBig: 18px;
+
+$font_size_titleSmall: 16px;
+
+$font_size_text: 14px;
+
+$font_size_helperText: 12px;
+
+// Can't drop warn color
+$cant_drop_warn_color: $helper_color_warn;
+
+// Export for JavaScript variable
+:export {
+    cantDropWarnColor: $cant_drop_warn_color;
+}
